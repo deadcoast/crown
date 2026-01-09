@@ -1,0 +1,13 @@
+{
+  "PostToolUse": [
+    {
+      "matcher": "Write",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "If the file just written is TODO.md, CHANGELOG.md, VALIDATION.md, or SD.md: validate that any new cross-references follow the format [DOCUMENT.md], [ver:`X.X.X`, sect:`Y)`] and resolve to existing targets. Report any issues found."
+        }
+      ]
+    }
+  ]
+}
